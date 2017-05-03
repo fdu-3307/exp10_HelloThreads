@@ -9,7 +9,7 @@ import com.mycompany.exp10.common.HelloJava8streams;
 import com.mycompany.exp10.common.MyLanguageEnum;
 
 /**
- * Example Java project created via STS as Java Project, showing concurrent programming in Java. 
+ * Example class showing concurrent programming in Java. 
  * Showing how to run threads by creating anonymous inner class instances of Thread using anonymous inner class instances of Runnable implementing run method
  *
  * @author ilker

@@ -9,7 +9,7 @@ import com.mycompany.exp10.common.HelloJava8streams;
 import com.mycompany.exp10.common.MyLanguageEnum;
 
 /**
- * Example Java project created via STS as Java Project, showing concurrent programming in Java. 
+ * Example task class implementing Runnable showing concurrent programming in Java. 
  * Showing how to run tasks that extend Runnable in threads
  * 
  * @author ilker

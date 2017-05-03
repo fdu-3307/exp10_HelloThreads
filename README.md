@@ -4,7 +4,7 @@ Example Java project created via STS as Java Project, showing concurrent program
 - run tasks that extend Runnable in threads (MyRunnableTask)
 - run threads by creating anonymous inner class instances of Thread implementing run method (UsingAnonymousInnerClassThread)
 - run threads by creating anonymous inner class instances of Thread using anonymous inner class instances of Runnable implementing run method (UsingAnonymousInnerClassRunnable)
-
+- submitting Runnable tasks to a thread pool created by executors framework (HelloExecutors)
 
 ## Setup dependencies
 Make sure on your machine, you have;
@@ -43,14 +43,16 @@ Now you can import the project into STS via
 File --> Import --> General --> Existing Projects into Workspace , then follow the wizard
 
 ### to run the project from STS
-- Right click on project, Run As --> Java Application, click MyThread or MyRunnableTask from list
+- Right click on project, Run As --> Java Application, click MyThread or MyRunnableTask or HelloExecutors from list
 or
 - Right click on MyThread, Run As --> Java Application
 - Right click on MyRunnableTask, Run As --> Java Application
+- Right click on HelloExecutors, Run As --> Java Application
 
 ## Project directory structure
 - README.md this read me file
 - src directory of java packages
 - src/com.mycompany.exp10.common containing MyLanguageEnum, HelloJava8streams (to get a map used in loop)
 - src/com.mycompany.exp10.one containing MyThread, MyRunnableTask
+- src/com.mycompany.exp10.two containing HelloExecutors
 - design directory of design documents, like class diagram
