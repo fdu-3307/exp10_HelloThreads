@@ -99,7 +99,7 @@ public class UsingAnonymousInnerClassThreadSimple {
 	
 		// NOTE ilker without below join main thread normally will finish long before t3. But with join, main thread will wait for t3 to finish
 		try {
-			t3.join();
+			t2.join();	// NOTE ilker - TODO run using t3 instead of t2 and see difference 
 		} catch (InterruptedException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

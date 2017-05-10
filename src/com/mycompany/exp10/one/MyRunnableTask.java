@@ -39,13 +39,14 @@ public class MyRunnableTask implements Runnable {
 	public void run() {
 		for (Integer count : loopMap.keySet()) {
 			System.out.println("MyThread id:" + Thread.currentThread().getId() + ", count:" + count + ", " + loopMap.get(count));
-			try {
+			// NOTE ilker - TODO run with below commented and below unCommented and see difference
+/*			try {
 				Thread.sleep(500);
 			} catch (InterruptedException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
-		}
+*/		}
 	}
 
 	/**
